@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.main-div {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header{
+  color: white;
+  font-size: 40px;
+}
+
+.balance{
+  color:white;
+  font-size: 30px;
+  border-top: 1px solid white;
+}
+
+.expense{
+  overflow-x:auto;
+  font-size: 20px;
+}
+.expense-table{
+  color:white;
+  padding: 2px;
+  background-color: lightslategray;
+  border-spacing: 7px;
+}
+th{
+  font-size:22px;
+}
+.expense-td{
+  text-align: center;
+}
+
+.history{
+  color: white;
+  font-size: 20px;
+}
+.history-table{
+  color: white;
+  background-color:lightslategray;
+  font-size:17px;
+  text-align: center;
+}
+
+.transaction{
+  color: white;
+  font-size: 20px;
+}
+
+.btn{
+  color: white;
+  font-size: 17px;
+  background-color: lightslategray;
+  width: 100%;
+  height:50px;
+}
